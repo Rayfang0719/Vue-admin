@@ -1,7 +1,6 @@
 <template>
-<div class="login">
-    <h3>欢迎登录后台管理系统</h3>
-    <form>
+<div>
+  <form>
   <div class="form-group">
     <label for="exampleInputEmail1">Email address</label>
     <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
@@ -24,19 +23,4 @@ export default {
     
 }
 </script>
-<style lang="scss" scoped>
-.login{
-    margin: 2rem auto;
-    overflow:hidden;
-    width: 10rem;
-    /* height:5rem; */
-    background-color:#58bc58;
-    padding-top:.013333rem;
-    h3{
-        margin: .133333rem auto;
-        font-size: .2rem;
-    }
-}
-</style>
-
 

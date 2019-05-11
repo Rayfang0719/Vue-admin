@@ -26,7 +26,7 @@ export default {
 </script>
 <style lang="scss" scoped>
 .login{
-    margin: 2rem auto;
+    margin: 4rem auto;
     overflow:hidden;
     width: 10rem;
     /* height:5rem; */

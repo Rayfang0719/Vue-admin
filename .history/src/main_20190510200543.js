@@ -3,13 +3,9 @@ import App from './App.vue'
 import router from './router/router'
 import store from './store'
 
-// import axios from "axios";
-// Vue.prototype.$axios = axios;
 
-// import bootstrap lib to the project,没有路径就会直接去找node_modules
-import "bootstrap";
-
-import 'lib-flexible';
+// import 'bootstrap/dist/css/bootstrap.min.css'
+import 'bootstrap/dist/js/bootstrap.min'
 Vue.config.productionTip = false
 
 new Vue({

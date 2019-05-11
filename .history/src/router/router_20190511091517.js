@@ -29,7 +29,7 @@ export default new Router({
           path: 'goods',
           name: 'goods',
           title: '商品管理',
-          component: () => import('../pages/admin/goods/goods'),//路径要自己改
+          component: () => import('../pages/admin/goods'),//路径要自己改
           children:[
             {
               path: 'list',
@@ -50,28 +50,7 @@ export default new Router({
               component: () => import('../pages/admin/goods/addgoods'),//路径要自己改
             },
           ]
-        },
-        {
-          path: 'users',
-          name: 'users',
-          title: '用户管理',
-          component: () => import('../pages/admin/users/users'),//路径要自己改
-          children:[
-            {
-              path: 'list',
-              name: 'list',
-              title: '用户列表',
-              component: () => import('../pages/admin/users/list'),//路径要自己改
-            },
-            {
-              path: 'adduser',
-              name: 'adduser',
-              title: '添加用户',
-              component: () => import('../pages/admin/users/adduser'),//路径要自己改
-            },
-           
-          ]
-        },
+        }
       ]
     }
   ]

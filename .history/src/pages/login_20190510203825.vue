@@ -1,10 +1,9 @@
 <template>
-<div class="login">
-    <h3>欢迎登录后台管理系统</h3>
-    <form>
+<div class="container-fluid login">
+  <form>
   <div class="form-group">
-    <label for="exampleInputEmail1">Email address</label>
-    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+    <label for="exampleInputEmail1">用户名</label>
+    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter username">
     <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
   </div>
   <div class="form-group">
@@ -24,18 +23,11 @@ export default {
     
 }
 </script>
-<style lang="scss" scoped>
+<style>
 .login{
-    margin: 2rem auto;
-    overflow:hidden;
-    width: 10rem;
-    /* height:5rem; */
-    background-color:#58bc58;
-    padding-top:.013333rem;
-    h3{
-        margin: .133333rem auto;
-        font-size: .2rem;
-    }
+    margin: .4rem auto;
+    width: 8rem;
+ 
 }
 </style>
 
